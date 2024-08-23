@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #333;
+}
+.main{
+  height: 45vh;
+  width: 50%;
+  background-color: #fff;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.main .session1{
+  height: 10vh;
+  width: 100%;
+  background-color: #968a8a;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .session1 img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.main .session1 h1{
+  height: 100px;
+  width: 50%;
+  background-color: transparent;
+  margin-top: 2%;
+  margin-left: 15%;
+  text-decoration: underline;
+}
+.main .session1 #one-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.main .content{
+  margin-top: 5%;
+  background-color: transparent;
+}
+.main .content #input{
+  height: 50px;
+  width: 70%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  background-color: black;
+  font-size: 20px;
+  color: #fff;
+}
+.main .content input:placeholder{
+ color: #fff;
+}
+.main .content button{
+  padding: 17.4px;
+  border:none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.main .content button:hover{
+  background-color: red;
+  color: #fff;
+}
+.main .content p{
+  height: 30px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: transparent;
+  font-size: 35px;
+}
+.main .content #random{
+  margin-top: 15px;
+}
